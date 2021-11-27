@@ -1,6 +1,6 @@
 <?php
 $content=\file_get_contents('nav.yaml');
-$page=yaml_parse($content)
+$page=yaml_parse($content);
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,12 +20,23 @@ $page=yaml_parse($content)
             </nav>
         </header>
         <main>
-            <section>
-
+            <section id="accueil">
+                <?php include ("accueil.php");?>
+            </section>
+            <section id="apropos">
+                <?php include("apropos.php"); ?>
+            </section>
+            <section id="competence">
+                <?php include("competence.php")?>
+            </section>
+            <section id="experience">
+                <?php include("experience.php")?>
+            </section>
+            <section id="formation">
+                <?php include("formation.php")?>
             </section>
         </main>
         <footer>
-
         </footer>
     </body>
 </html>

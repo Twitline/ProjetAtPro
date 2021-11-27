@@ -1,11 +1,1 @@
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Html page</title>
-    </head>
-    <body>
-    <!-- Contenu de la page -->
-    </body>
-</html
+<h1>Geoffrey LAUNAY</h1>

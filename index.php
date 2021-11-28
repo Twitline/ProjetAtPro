@@ -36,7 +36,8 @@ $page=yaml_parse($content);
                 <?php include("formation.php")?>
             </section>
         </main>
-        <footer>
+        <footer class="footer">
+            <p>Page de Geoffrey</p>
         </footer>
     </body>
 </html>

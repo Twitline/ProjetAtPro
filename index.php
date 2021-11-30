@@ -27,13 +27,13 @@ $page=yaml_parse($content);
                 <?php include("apropos.php"); ?>
             </section>
             <section id="competence">
-                <?php include("competence.php")?>
+                <?php include("competence.php");?>
             </section>
             <section id="experience">
-                <?php include("experience.php")?>
+                <?php include("experience.php");?>
             </section>
             <section id="formation">
-                <?php include("formation.php")?>
+                <?php include("formation.php");?>
             </section>
         </main>
         <footer class="footer">

@@ -4,13 +4,18 @@ body {
     width: 100%;
 }
 header{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
-.footer{
+footer{
     width: 100%;
     border-radius: 20px;
     position: fixed;
+    bottom: 0px;
+    left: 0px;
     background-color: red;
+}
+main {
+    margin-bottom: 40px;
 }
 nav {
     position: fixed;
@@ -20,8 +25,8 @@ nav {
     background-color:rgb(218, 15, 15) ;
     display: flex;
     justify-content: space-between;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -57,4 +62,14 @@ section:target{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.tiAcc {
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline
+}
+.subAcc {
+    font-style:italic;
+    text-decoration:underline;
 }

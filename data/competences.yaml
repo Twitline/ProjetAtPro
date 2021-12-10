@@ -1,3 +1,51 @@
-HTML : 70
-CSS : 50
-PHP : 55
+-
+  domaine: Développement
+  items:
+    -
+      competence: HTML
+      niveau: 70
+    -
+      competence: PHP
+      niveau: 55    
+    -
+      competence: CSS
+      niveau: 50  
+-
+  domaine: Langues
+  items:
+    -
+      competence: Francais
+      niveau : 100
+    -
+      competence: Anglais
+      niveau: 50
+    -
+      competence: Allemand
+      niveau: 15
+-
+  domaine: Réseau
+  items:
+    -
+      competence: DHCP Debian
+      niveau: 80
+    -
+      competence: VLAN Packet Tracer
+      niveau: 70
+    -
+      competence: DNS Debian
+      niveau: 40
+-
+  domaine: Divers
+  items:
+    -
+      competence: SolidWorks
+      niveau: 50
+    -
+      competence: Traitement de texte
+      niveau : 50
+    -
+      competence: Tableur
+      niveau: 40
+    -
+      competence: Montage Photo
+      niveau: 20

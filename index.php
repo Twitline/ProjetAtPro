@@ -14,7 +14,7 @@ $page=yaml_parse($content);
             <nav>
                 <?php
                 foreach ($page as $nav=>$ancre){
-                    echo "<div class='contournav'><a class='liennav' href='#$ancre'>$nav</a></div>";
+                    echo "<a class='liennav' href='#$ancre'>$nav</a>";
                 }
                 ?>
             </nav>

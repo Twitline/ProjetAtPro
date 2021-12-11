@@ -4,7 +4,7 @@ body {
     width: 100%;
 }
 header{
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 footer{
     width: 100%;
@@ -13,9 +13,13 @@ footer{
     bottom: 0px;
     left: 0px;
     background-color: red;
+    box-shadow: 0px -5px 2.5px rgb(150, 13, 13);
 }
 main {
     margin-bottom: 40px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    background-color: rgba(255, 255, 255, 0.562);
 }
 nav {
     position: fixed;
@@ -25,22 +29,14 @@ nav {
     background-color:rgb(218, 15, 15) ;
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 5px rgb(150, 13, 13);
 }
 
-.contournav {
-    border-radius: 20px;
-    background-color: white;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
-    margin-left: 15px;
-    margin-right: 15px;
+.skill{
+    padding-top: 20px;
 }
-
 .liennav {
     color: rgb(238, 234, 15);
     border-radius: 20px;
@@ -53,6 +49,7 @@ nav {
     text-decoration: none;
     margin-left: 15px;
     margin-right: 15px;
+    box-shadow: 0px 0px 5px 7.5px rgb(255, 255, 255);
 }
 
 section:not(:target){

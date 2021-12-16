@@ -30,6 +30,7 @@ $page=yaml_parse($content);
         </main>
         <footer>
             <p>Page de Geoffrey</p>
+            <a href="divers/CV.pdf" download>Telechargez mon curriculum vitae</a>
         </footer>
     </body>
 </html>

@@ -1,5 +1,4 @@
 body {
-    background-color: lightskyblue;
     height: 100%;
     width: 100%;
     background: linear-gradient(90deg, rgb(3, 3, 104),white,red);
@@ -11,6 +10,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     border-radius: 20px;
     position: fixed;
@@ -18,10 +18,22 @@ footer{
     left: 0px;
     background-color: rgba(255, 0, 0, 0);
 }
+.pdf{
+    box-shadow: 0px 0px 5px 7.5px rgb(38, 0, 255);
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: royalblue;
+    color:yellow
+}
 main {
     margin-bottom: 40px;
-    margin-left: 60vh;
-    margin-right: 60vh;
+    margin-left: 65vh;
+    margin-right: 65vh;
     background-color: rgba(255, 255, 255, 0);
 }
 nav {
@@ -80,19 +92,26 @@ section:not(:target){
 section:target{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .tiAcc {
+    text-align: center;
     font-size: 3em;
     font-style: italic;
     text-decoration: underline
 }
 .subAcc {
+    text-align: center;
     font-style:italic;
     text-decoration:underline;
 }
 .portrait{
     border-radius: 30px;
     box-shadow: 0px 0px 5px 7.5px rgb(249, 253, 0)
+}
+.formation {
+    margin-bottom: 40px;
+}
+.centre{
+    text-align: center;
 }

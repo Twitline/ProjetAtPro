@@ -8,6 +8,6 @@
     <input type="text" id="objet" name="objet"><br>
     <label for="message">Votre message</label><br>
     <textarea rows="3" name="message" id="message"></textarea><br>
-    <div class="g-recaptcha" data-sitekey="6Lee0K8dAAAAALGFcjnSmRmPNGVrmCiormvxEoAf"></div><br>
+    <div class="g-recaptcha" data-sitekey="6Ld1168dAAAAAAnPWq5uV92XNomxqCPP7VgyfACk"></div><br>
 </form>
 

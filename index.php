@@ -6,7 +6,7 @@ $page=yaml_parse($content);
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Page</title>
+        <title>Mon site perso</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>

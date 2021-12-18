@@ -71,7 +71,7 @@ if($mail->SMTPAuth){
 }
 
 $mail->From       = trim("testjojo337@gmail.com");                //L'email à afficher pour l'envoi
-$mail->FromName   = trim("Nouveau Message");          //L'alias de l'email de l'emetteur
+$mail->FromName   = trim("$nom");          //L'alias de l'email de l'emetteur
 
 $mail->AddAddress(trim("geoffreylaunay02@gmail.com"));
 

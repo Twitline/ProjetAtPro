@@ -8,6 +8,7 @@ $page=yaml_parse($content);
         <meta charset="utf-8">
         <title>Page</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body>
         <header>

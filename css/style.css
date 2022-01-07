@@ -63,7 +63,8 @@ progress{
 }
 
 ::-webkit-progress-value {
-    background-color: orange;
+    background:linear-gradient(90deg,rgb(0, 87, 250),magenta) ;
+    border-radius: 20px;
 }
 /*
 
@@ -127,4 +128,10 @@ section:target{
 }
 .centre{
     text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background:linear-gradient(red,orange,yellow,lime,blue,purple) ;
+    }    
 }
